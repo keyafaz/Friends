@@ -1,0 +1,13 @@
+<div class="w3-margin">
+	<h1 class="w3-padding-top">Edit</h1>
+
+	<form class="w3-form">
+		<p ng-bind='friend.name'>{{name}}</p>
+		<span class="col-sm-1">	Name: </span><input type="text" ng-model='friend.name' ><br>
+		<span class="col-sm-1">	Age:</span>  <input type="number" ng-model="friend.age" ><br>
+		<button class="w3-btn w3-hover-light-grey w3-blue-grey w3-shadow w3-margin-top w3-card-2" ng-click='update(friend)' >Update</button>
+		<button class="w3-btn w3-hover-light-grey w3-red w3-shadow w3-margin-top w3-card-2" ng-click='delete(friend)'>Delete</button>
+	</form>
+	
+	<a class="w3-btn w3-hover-light-grey w3-blue-grey w3-shadow w3-margin-top w3-card-2 w3-display-bottommiddle" href="#/display">Home</a>
+</div>

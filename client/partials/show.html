@@ -1,0 +1,10 @@
+<div class="w3-margin">
+	<h2 class="w3-padding-top">Friends</h2>
+	<div >
+		<div ng-repeat=' friend in friends'>
+			<p>Name: {{friend.name}}s</p>
+			<p>Age: {{friend.age}}</p>
+			<a class="w3-btn w3-hover-light-grey w3-blue-grey w3-shadow w3-margin-top w3-card-2" href="#/edit/{{friend._id}}">Edit</a>		
+		</div>
+	</div>
+</div>
